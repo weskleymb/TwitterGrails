@@ -6,6 +6,7 @@ class Cliente {
     int idade
     String endereco
     String bairro
+    String cidade
 
     static constraints = {
         nome()
