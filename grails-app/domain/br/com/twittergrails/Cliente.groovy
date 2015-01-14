@@ -7,6 +7,7 @@ class Cliente {
     String endereco
     String bairro
     String cidade
+    String uf
 
     static constraints = {
         nome()
