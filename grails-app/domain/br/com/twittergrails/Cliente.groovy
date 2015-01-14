@@ -8,6 +8,7 @@ class Cliente {
     String bairro
     String cidade
     String uf
+    double salario
 
     static constraints = {
         nome()
