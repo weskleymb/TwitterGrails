@@ -26,11 +26,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${g.createLink(uri:'/')}">SB Admin v2.0</a>
+                <a class="navbar-brand" href="${g.createLink(uri:'/')}">Twitter Grails - 1.0</a>
             </div>
             <!-- /.navbar-header -->
 
-            <ul class="nav navbar-top-links navbar-right">
+            %{--<ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -237,10 +237,10 @@
                     <!-- /.dropdown-user -->
                 </li>
                 <!-- /.dropdown -->
-            </ul>
+            </ul>--}%
             <!-- /.navbar-top-links -->
 
-            <div class="navbar-default sidebar" role="navigation">
+            %{--<div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li class="sidebar-search">
@@ -265,7 +265,7 @@
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
-            </div>
+            </div>--}%
             <!-- /.navbar-static-side -->
         </nav>
         <div id="page-wrapper">
